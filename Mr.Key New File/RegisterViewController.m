@@ -72,15 +72,19 @@
     else
     {
         [self makeAccount];
+        
     }
+    
     
 }
 
 -(void)segueToMainViewController
 {
     NSLog(@"Segue");
-    HomeViewController *homeVC = [[HomeViewController alloc] init];
-    [self.navigationController pushViewController:homeVC animated:YES];
+    ProfileViewController *profileVC = [[ProfileViewController alloc] init];
+    [self.navigationController pushViewController:profileVC animated:YES];
+//    HomeViewController *homeVC = [[HomeViewController alloc] init];
+//    [self.navigationController pushViewController:homeVC animated:YES];
 //    [self presentViewController:homeVC animated:YES completion:nil];
 }
 
@@ -93,8 +97,9 @@
 
 -(void)saveData
 {
-    ProfileViewController *profileVC = [[ProfileViewController alloc] init];
-    [self.navigationController pushViewController:profileVC animated:YES];
+    [self parseData];
+  
+
 }
 
 

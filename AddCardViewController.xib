@@ -44,7 +44,7 @@
                     <textInputTraits key="textInputTraits"/>
                 </textField>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wEl-6J-Nsm">
-                    <rect key="frame" x="124" y="122" width="73" height="30"/>
+                    <rect key="frame" x="124" y="116" width="73" height="30"/>
                     <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="13"/>
                     <state key="normal" title="Scan Card">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>

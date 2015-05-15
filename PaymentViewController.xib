@@ -38,13 +38,19 @@
                             <state key="normal" title="Back">
                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
+                            <connections>
+                                <action selector="Back:" destination="-1" eventType="touchUpInside" id="MtV-nJ-Jck"/>
+                            </connections>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cNA-AM-7Nq">
-                            <rect key="frame" x="127" y="71" width="66" height="30"/>
+                            <rect key="frame" x="8" y="71" width="304" height="30"/>
                             <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="13"/>
                             <state key="normal" title="Add Card">
                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
+                            <connections>
+                                <action selector="Add:" destination="-1" eventType="touchUpInside" id="iPY-qb-hGe"/>
+                            </connections>
                         </button>
                     </subviews>
                     <color key="backgroundColor" red="0.08175302643" green="0.050903207999999998" blue="0.31940870100000002" alpha="1" colorSpace="calibratedRGB"/>

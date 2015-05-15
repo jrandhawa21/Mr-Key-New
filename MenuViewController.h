@@ -8,8 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MenuViewController : UIViewController
+@interface MenuViewController : UIViewController <UIImagePickerControllerDelegate, UINavigationControllerDelegate>
 
 
+@property (strong, nonatomic) IBOutlet UIImageView *imageView;
+
+- (IBAction)Pickpicture:(UIButton *)sender;
 
 @end

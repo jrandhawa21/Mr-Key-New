@@ -27,6 +27,9 @@
                     <state key="normal" title="Back">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
+                    <connections>
+                        <action selector="Back:" destination="-1" eventType="touchUpInside" id="h9Q-J8-Uia"/>
+                    </connections>
                 </button>
                 <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="MP4-jb-CSy">
                     <rect key="frame" x="0.0" y="50" width="320" height="2"/>

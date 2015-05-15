@@ -7,6 +7,7 @@
 //
 
 #import "ContactUsViewController.h"
+#import "MenuViewController.h"
 
 @interface ContactUsViewController ()
 
@@ -22,6 +23,12 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)Back:(UIButton *)sender
+{
+    NSLog(@"works");
+    [self.presentingViewController dismissViewControllerAnimated:YES completion:nil];
 }
 
 /*

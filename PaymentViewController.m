@@ -7,6 +7,7 @@
 //
 
 #import "PaymentViewController.h"
+#import "AddCardViewController.h"
 
 @interface PaymentViewController ()
 
@@ -25,6 +26,25 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+- (IBAction)Back:(UIButton *)sender
+{
+    NSLog(@"works");
+    [self.presentingViewController dismissViewControllerAnimated:YES completion:nil];
+}
+
+- (IBAction)Add:(UIButton *)sender
+{
+    NSLog(@"works");
+    {
+        NSLog(@"works");
+        AddCardViewController *AddCardVC = [[AddCardViewController alloc] init];
+        [self presentViewController:AddCardVC animated:YES completion:nil];
+        
+    }
+
+}
+
 
 /*
 #pragma mark - Navigation

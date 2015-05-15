@@ -7,11 +7,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SettingsViewController">
             <connections>
-                <outlet property="Address" destination="47J-lp-LUE" id="Rrg-su-fxv"/>
-                <outlet property="Email" destination="Lf7-TX-WLn" id="uyg-cb-Z0f"/>
                 <outlet property="Image" destination="Ock-gL-spT" id="HwK-e4-MHs"/>
-                <outlet property="Password" destination="QR1-FD-dvY" id="Eqx-Cn-Jha"/>
-                <outlet property="Username" destination="IHF-1I-AsA" id="dDE-mS-FPk"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -107,6 +103,9 @@
                         <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
+                    <connections>
+                        <action selector="X:" destination="-1" eventType="touchUpInside" id="kgx-6L-MeY"/>
+                    </connections>
                 </button>
                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="First Name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lqV-yB-V8I">
                     <rect key="frame" x="87" y="69" width="225" height="30"/>
@@ -131,9 +130,6 @@
                         <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
-                    <connections>
-                        <action selector="Edit:" destination="-1" eventType="touchUpInside" id="XnQ-b5-RwI"/>
-                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vBM-bR-d8Y">
                     <rect key="frame" x="120" y="331" width="77" height="30"/>

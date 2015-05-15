@@ -17,7 +17,7 @@
 
 @end
 
-@implementation AppDelegate
+@implementation AppDelegate 
 
 
 NSString * const StripePublishableKey = @"pk_test_UE8BywgUosEjRd0ZbwHuzJBy";

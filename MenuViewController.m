@@ -9,6 +9,12 @@
 #import "MenuViewController.h"
 #import <Parse/Parse.h>
 #import "RESideMenu.h"
+#import "HistoryViewController.h"
+#import "PaymentViewController.h"
+#import "ContactUsViewController.h"
+#import "SettingsViewController.h"
+
+
 
 @interface MenuViewController ()
 
@@ -35,6 +41,64 @@
     
 }
 
+- (IBAction)PickPicture:(UIButton *)sender {
+    
+    UIImagePickerController *picker = [[UIImagePickerController alloc] init];
+    picker.delegate = self;
+    picker.allowsEditing = YES;
+    picker.sourceType = UIImagePickerControllerSourceTypePhotoLibrary;
+    
+    [self presentViewController:picker animated:YES completion:NULL];
+    
+    
+}
+
+- (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info {
+    
+    UIImage *chosenImage = info[UIImagePickerControllerEditedImage];
+    self.imageView.image = chosenImage;
+    
+    [picker dismissViewControllerAnimated:YES completion:NULL];
+    
+}
+
+- (void)imagePickerControllerDidCancel:(UIImagePickerController *)picker {
+    
+    [picker dismissViewControllerAnimated:YES completion:NULL];
+    
+}
+
+- (IBAction)History:(UIButton *)sender
+{
+    NSLog(@"works");
+    HistoryViewController *historyVC = [[HistoryViewController alloc] init];
+    [self presentViewController:historyVC animated:YES completion:nil];
+    
+}
+
+- (IBAction)Payment:(UIButton *)sender
+{
+    NSLog(@"works");
+    PaymentViewController *paymentVC = [[PaymentViewController alloc] init];
+    [self presentViewController:paymentVC animated:YES completion:nil];
+    
+}
+
+- (IBAction)ContactUs:(UIButton *)sender
+{
+    NSLog(@"works");
+    ContactUsViewController *ContactUsVC = [[ContactUsViewController alloc] init];
+    [self presentViewController:ContactUsVC animated:YES completion:nil];
+    
+}
+
+- (IBAction)Settings:(UIButton *)sender
+{
+    NSLog(@"works");
+    SettingsViewController *settingsVC = [[SettingsViewController alloc] init];
+    [self presentViewController:settingsVC animated:YES completion:nil];
+    
+}
 
 /*
 #pragma mark - Navigation

@@ -24,6 +24,12 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)Back:(UIButton *)sender
+{
+    NSLog(@"works");
+    [self.presentingViewController dismissViewControllerAnimated:YES completion:nil];
+}
+
 /*
 #pragma mark - Navigation
 
