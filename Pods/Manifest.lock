@@ -1,5 +1,6 @@
 PODS:
   - CardIO (5.0.4)
+  - PaymentKit (1.1.1)
   - RESideMenu (4.0.7)
   - Stripe (3.1.0):
     - Stripe/Core (= 3.1.0)
@@ -7,11 +8,13 @@ PODS:
 
 DEPENDENCIES:
   - CardIO
-  - RESideMenu (~> 4.0.7)
+  - PaymentKit
+  - RESideMenu
   - Stripe
 
 SPEC CHECKSUMS:
   CardIO: d9240efad9237ff668ff0c2e17de28369cab18c8
+  PaymentKit: 323c25233af5060880daa0c31366d4b688c34487
   RESideMenu: f24c508404b49c667344c54aba7e590883533958
   Stripe: 8a456332f4db97bd0b8457fc8cce1e1a69ac0cd1
 

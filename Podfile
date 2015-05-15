@@ -2,9 +2,10 @@
 # platform :ios, ‘6.1’
 
 target 'Mr.Key New File' do
-pod 'RESideMenu', '~> 4.0.7'
+pod 'RESideMenu'
 pod 'CardIO'
 pod 'Stripe'
+pod 'PaymentKit'
 end
 
 target 'Mr.Key New FileTests' do

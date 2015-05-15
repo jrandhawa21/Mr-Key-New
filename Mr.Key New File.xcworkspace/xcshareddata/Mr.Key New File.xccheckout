@@ -6,22 +6,30 @@
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>E9409475-9022-408B-96F0-DEB7E6962706</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Mr.Key New File</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>7508FC08ACC804DC7692008A98BFF4C35CE575F3</key>
 		<string>https://github.com/jrandhawa21/MrKey.git</string>
+		<key>FBE611EB783175A738462583EB30D405FFA49394</key>
+		<string>https://github.com/jrandhawa21/Mr-Key-New.git</string>
 	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Mr.Key New File.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>7508FC08ACC804DC7692008A98BFF4C35CE575F3</key>
-		<string>Mr.Key%20FIxed/</string>
+		<string>../../Johnny/Mr.Key%20FIxed</string>
+		<key>FBE611EB783175A738462583EB30D405FFA49394</key>
+		<string>..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/jrandhawa21/MrKey.git</string>
+	<string>https://github.com/jrandhawa21/Mr-Key-New.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>7508FC08ACC804DC7692008A98BFF4C35CE575F3</string>
+	<string>FBE611EB783175A738462583EB30D405FFA49394</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
@@ -31,6 +39,14 @@
 			<string>7508FC08ACC804DC7692008A98BFF4C35CE575F3</string>
 			<key>IDESourceControlWCCName</key>
 			<string>Mr.Key%20FIxed</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>FBE611EB783175A738462583EB30D405FFA49394</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MrKey-Master</string>
 		</dict>
 	</array>
 </dict>
