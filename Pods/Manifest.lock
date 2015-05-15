@@ -1,0 +1,18 @@
+PODS:
+  - CardIO (5.0.4)
+  - RESideMenu (4.0.7)
+  - Stripe (3.1.0):
+    - Stripe/Core (= 3.1.0)
+  - Stripe/Core (3.1.0)
+
+DEPENDENCIES:
+  - CardIO
+  - RESideMenu (~> 4.0.7)
+  - Stripe
+
+SPEC CHECKSUMS:
+  CardIO: d9240efad9237ff668ff0c2e17de28369cab18c8
+  RESideMenu: f24c508404b49c667344c54aba7e590883533958
+  Stripe: 8a456332f4db97bd0b8457fc8cce1e1a69ac0cd1
+
+COCOAPODS: 0.36.4

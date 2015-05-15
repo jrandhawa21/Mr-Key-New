@@ -1,0 +1,1 @@
+PODS_MR_KEY_NEW_FILE_STRIPE_OTHER_LDFLAGS = -framework "Foundation" -framework "Security"
